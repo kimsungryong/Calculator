@@ -1,12 +1,23 @@
+import java.util.Scanner;
 
 public class Cal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("µ¡¼À : " + (5 + 3));
-		System.out.println("»¬¼À: " + (5 - 3));
-		System.out.println("°ö¼À: " + (5 * 3));
-		System.out.println("³ª´°¼À: " + (6 / 3));
+
+		// ½ºÄ³³Ê¸¦ »ý¼ºÇÏ¸é ½ºÄ³³Ê°¡ ÀÚµ¿ÀûÀ¸·Î import µÈ´Ù.
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ã¹¹øÂ° ÀÔ·Â °ª : ");
+		int first = scanner.nextInt();
+		System.out.println(first);
+
+		System.out.println("µÎ¹øÂ° ÀÔ·Â °ª : ");
+		int second = scanner.nextInt();
+		System.out.println(second);
+
+		System.out.println("µ¡¼À : " + (first + second));
+		System.out.println("»¬¼À: " + (first - second));
+		System.out.println("°ö¼À: " + (first * second));
+		System.out.println("³ª´°¼À: " + (first / second));
 
 	}
 
