@@ -7,7 +7,7 @@ public class Cal {
 		System.out.println("»¬¼À: " + (5 - 3));
 		System.out.println("°ö¼À: " + (5 * 3));
 		System.out.println("³ª´°¼À: " + (6 / 3));
-		System.out.println("³ª´°¼À: " + (6 / 3));
+
 	}
 
 }
